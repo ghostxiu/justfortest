@@ -21,7 +21,7 @@ int main()
 }
 int ** CreatArr(int r , int c )
 {
-        //method 2 to initialize a dynamic-planar arr
+        //method 1 to initialize a dynamic-planar arr
     int ** arr = new int*[r];
     for(int i = 0 ; i < c ; i ++)
     {
